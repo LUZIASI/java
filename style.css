@@ -1,10 +1,17 @@
-h1{
-    color:blue;
-    background-color: rgba(102, 96, 96, 0.103);
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 100px;
+    padding: 10px;
 }
-button{
-    color: darkgreen;
-    background-color: aqua;
-    border: 55px;
-    border-radius: 55px;
+.botoes{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 15px;
+    width: 100px;
+    padding: 10px 14px;
 }
