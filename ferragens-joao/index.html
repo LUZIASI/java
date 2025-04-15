@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+   <title>cadastro de produtos</title>
+   <style>
+    body { font-family: Arial; padding: 20px;}
+    .produto{border: 1px solid #ccc;padding: 10px; margin-bottom: 10px;}
+    .form-produto {margin-top: 30px;}
+    label{ display: block; margin-top: 10px;}
+   </style>
+</head>
+<body>
+    
+    <h1>Lista De Produtos</h1>
+
+    <div class="produto">
+        <h3>Camisa Branca</h3>
+        <p>Preço: R$ 49,90</p>
+        <p>Descrição: Camisa básica branca, algodão.</p>
+    </div>
+
+    <div class="produto">
+        <h3>Calça Jeans</h3>
+        <p>Preço: R$ 99,90</p>
+        <p>descrição: calça jeans azul escuro.</p>
+    </div>
+    
+
+    <h2> Cadastrar Novo Produto</h2>
+    <select name="" id="produtos">
+        <option value="CAMISA">CAMISA</option>
+        <option value="arroz">arroz</option>
+        <option value="bombom">bombom</option>
+        <option value="creme">creme</option>
+        <option value="uva">uva</option>
+    </select>
+    <label for="">QUATNTIDADE PROCUTO</label>
+    <input type="text" id="qtd">
+
+    <button onclick="o()">botao</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
