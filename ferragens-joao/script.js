@@ -1,5 +1,3 @@
-
-//dicionario
 const produtos = {
     "CAMISA": 49.90,
     "arroz": 99.90,
@@ -7,11 +5,12 @@ const produtos = {
     "creme": 99.88,
     "uva" : 55.88,
 };
+
 function o() {
-    //ACESSAR O CAMPO PRODUTO
-    let escolhaProduto = document.getElementById("produtos").value; //nome do produto
-    //ACESSAR QUANTIDADE
+    let escolhaProduto = document.getElementById("produtos").value;
     let qtd = document.getElementById("qtd").value;
     let valortotal = produtos[escolhaProduto] * qtd;
-    console.log(valortotal)
+
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = `<p>Total a pagar por <strong>${qtd}</strong> unidade(s) de <strong>${escolhaProduto}</strong>: <strong>R$ ${valortotal.toFixed(2)}</strong></p>`;
 }
