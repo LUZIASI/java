@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #dbdada;
-    margin: 0;
-    padding: 0;
+    margin: 8;
+    padding: 7;
     color-interpolation-filters: auto;
 
     display: flex;
