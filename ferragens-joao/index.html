@@ -1,44 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>cadastro de produtos</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ferragens joão</title>
+    <link rel="styleshet" href="style.css">
 </head>
-
 <body>
-    <div class="cabecalho">
-        <h1>Lista De Produtos</h1>
+    <header>
+        <h1>Bem vindo a ferragens joão</h1>
+    </header>
 
-        <div class="produto">
-            <h3>Camisa Branca</h3>
-            <p>Preço: R$ 49,90</p>
-            <p>Descrição: Camisa básica branca, algodão.</p>
-        </div>
-
-        <div class="produto">
-            <h3>Calça Jeans</h3>
-            <p>Preço: R$ 99,90</p>
-            <p>descrição: calça jeans azul escuro.</p>
-        </div>
-    </div>
-    <h2> Cadastrar Novo Produto</h2>
-    <select name="" id="produtos">
-        <option value="CAMISA">CAMISA</option>
-        <option value="arroz">arroz</option>
-        <option value="bombom">bombom</option>
-        <option value="creme">creme</option>
-        <option value="uva">uva</option>
-    </div>
-    </select>
-    <label for="">Quantidade produto</label>
-    <input type="text" id="qtd">
-
-    <button onclick="comprar()">botao</button>
-    <div id="resultado"></div>
+    <main>
+        <form id="produtoform">
+            <p>Escolha um produto</p>
+            <select name="escproduto" id="escpro">
+                <option value="ferro">ferro</option>
+                <option value="aco">Aço</option>
+                <option value="arame">arame</option>
+                <option value="areia">Areia</option>
+            </select>
+            <p>Escreva a quantidade</p>
+            <input type="mumber" id="quantidade" placeholder="Quantidade"> <br>
+            <button type="button" id="confirmarBTN">confirmar</button>
+        </form>
+        <p id="resultado"></p>
+    </main>
 
     <script src="script.js"></script>
 </body>
-
 </html>
