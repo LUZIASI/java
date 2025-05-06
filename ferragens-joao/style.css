@@ -2,6 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
+
     background-color: #afacac;
     height: 100vh;
     display: flex;
@@ -65,6 +66,7 @@ h2 {
 }
 label{
     color: #f4f806;
+
 }
 button{
     color: #f70303;
